@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>springboot-thymeleaf</title>
+</head>
+<body>
+<h2>Spring boot study</h2>
+<table border="1">
+    <tr>
+        <th>编号</th>
+    </tr>
+    <tr th:each="l : ${list}">
+        <td th:text="${l}"></td>
+    </tr>
+</table>
+<li th:text="${name}"></li>
+<img th:src="@{/liu.jpg}">
+//包括css等都要加th：    @{}
+</body>
+</html>

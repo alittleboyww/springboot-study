@@ -1,0 +1,4 @@
+这个Demo中主要
+1. 配置了devtools热部署
+2. 对全局异常的捕捉
+3. 对thymeleaf的简单集成
